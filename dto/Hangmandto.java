@@ -48,7 +48,7 @@ public class Hangmandto {
         return ranout;
     }
     public void setranout(String rainout) {
-        this.ranout = rainout;
+        this.ranout = ranout;
     }
     public String getgameover() {
         return gameover;
