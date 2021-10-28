@@ -16,7 +16,7 @@ import java.util.List;
 public interface HangmanDao {
 	   
     List<Hangmandto> getAllword() throws HangmanDaoException;
-    Hangmandto addword(String wordTitle, Hangmandto dvd) throws HangmanDaoException;
+    Hangmandto addword(String wordTitle, Hangmandto hang) throws HangmanDaoException;
    
     Hangmandto getword(String wordTitle) throws HangmanDaoException;
 }
